@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Loan calculator</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div  id="left-container">
+            <h3>% Simple Loan Calculator</h3>
+           <p>Loan amount <input id="creditamt" type="number" placeholder="Loan amount"></p>
+           <p>Months <input  id ="monthcnt" type="number" placeholder="Loan period"></p> 
+           <p>Interest rate<input id="percent" type="number" placeholder="Interest rate"></p> 
+            <input id="submit" type="submit" value="Count">
+        </div>
+        <div  id="right-container">
+            <p><b>Monthly payment</b></p><div  id="monthly-payment"></div>
+            <p><b>The end of period</b></p><div  id="total-payment"></div>
+            <p><b>Common interest payment</b></p><div  id="extra-payment"></div>
+        </div>
+        <div></div>
+        <script src="main.js" async></script>
+    </body>
+</html>
